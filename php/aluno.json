@@ -1,0 +1,20 @@
+{
+    "nome": "Eduardo",
+    "idade": "17",
+    "email": "eduardo@gmail.com",
+    "cidade": "Conchal",
+    "disciplinas": [
+        {
+            "nome": "Matemática",
+            "estado": "Aprovado"
+        },
+        {
+            "nome": "Português",
+            "estado": "Aprovado"
+        },
+        {
+            "nome": "História",
+            "estado": "Aprovado"
+        }
+    ]
+}

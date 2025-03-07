@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário do Aluno</h1>
+
+        <form action="../php/processar.php" method="post">
+            <div class="form-groups">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="form-groups">
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade" required>
+            </div>
+            <div class="form-groups">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form-groups">
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" required>
+            </div>
+
+
+
+            <h3>Disciplinas</h3>
+
+            <div class="form-groups">
+                <label for="matematica">Matemática:</label>
+                <select name="matematica" id="matematica">
+                    <option value="Aprovado">Aprovado</option>
+                    <option value="Reprovado">Reprovado</option>
+                </select>
+            </div>
+            
+            <div class="form-groups">
+                <label for="portugues">Português:</label>
+                <select name="portugues" id="portugues">
+                    <option value="Aprovado">Aprovado</option>
+                    <option value="Reprovado">Reprovado</option>
+                </select>
+            </div>
+            
+            <div class="form-groups">
+                <label for="historia">História:</label>
+                <select name="historia" id="historia">
+                    <option value="Aprovado">Aprovado</option>
+                    <option value="Reprovado">Reprovado</option>
+                </select>
+            </div>
+            
+            
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+</body>
+</html>
